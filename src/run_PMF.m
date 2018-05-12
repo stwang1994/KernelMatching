@@ -25,7 +25,7 @@ function [ correspondences ] = run_PMF( X, Y, opts)
 
 %% depenencies
 global geodesic_library;
-geodesic_library = 'geodesic_matlab_api';
+geodesic_library = 'geodesic_debug';
 
 %% params
 if ~isfield(opts, 'use_par')
